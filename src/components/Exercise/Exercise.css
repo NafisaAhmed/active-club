@@ -1,0 +1,20 @@
+.exercise-container {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    background-color: lightgray;
+}
+
+.adding-container {
+    margin: 30px 80px;
+}
+
+.header-text {
+    color: blueviolet;
+}
+
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 45px;
+
+}

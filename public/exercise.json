@@ -1,0 +1,50 @@
+[
+    {
+        "id": "6335471e12b8a83000c3f820",
+        "img": "https://images.pexels.com/photos/40751/running-runner-long-distance-fitness-40751.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "age": "20-25",
+        "name": "Jogging",
+        "time": 30,
+        "description": "Everyday exercise is good for health. Do some activity and stay healthy."
+    },
+    {
+        "id": "6335471ecec8a1e3d3fbaa0f",
+        "img": "https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "age": "20-25",
+        "name": "Dumble",
+        "time": 30,
+        "description": "Everyday exercise is good for health. Do some activity and stay healthy."
+    },
+    {
+        "id": "6335471e34dc50d744721e48",
+        "img": "https://images.pexels.com/photos/3076509/pexels-photo-3076509.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "age": "20-25",
+        "name": "Yoga",
+        "time": 30,
+        "description": "Everyday exercise is good for health. Do some activity and stay healthy."
+    },
+    {
+        "id": "6335471ea6f44b8a2b813786",
+        "img": "https://images.pexels.com/photos/2294361/pexels-photo-2294361.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "age": "20-25",
+        "name": "Push Up",
+        "time": 30,
+        "description": "Everyday exercise is good for health. Do some activity and stay healthy."
+    },
+    {
+        "id": "6335471ef5601aea58717a65",
+        "img": "https://images.pexels.com/photos/2780762/pexels-photo-2780762.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "age": "20-25",
+        "name": "Plank",
+        "time": 30,
+        "description": "Everyday exercise is good for health. Do some activity and stay healthy."
+    },
+    {
+        "id": "6335471eb884e814f2ec6070",
+        "img": "https://images.pexels.com/photos/4058411/pexels-photo-4058411.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "age": "20-25",
+        "name": "Stretch",
+        "time": 30,
+        "description": "Everyday exercise is good for health. Do some activity and stay healthy."
+    }
+]
