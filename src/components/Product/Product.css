@@ -1,6 +1,6 @@
 .product {
     width: 300px;
-    height: 510px;
+    height: 480px;
     border: 1px solid #95A0A7;
     border-radius: 8px;
     background-color: aliceblue;
@@ -14,5 +14,15 @@
 }
 
 .product-info {
+    margin: 0 14px;
+}
+
+.btn-add {
+    color: white;
+    background-color: rgb(138, 138, 236);
+    padding: 10px 100px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
     margin: 0 14px;
 }

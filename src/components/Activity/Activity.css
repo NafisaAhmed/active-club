@@ -1,0 +1,77 @@
+.instructor {
+    display: flex;
+
+}
+
+.instructor img {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.instructor-info {
+    margin-top: 10px;
+    line-height: 5px;
+}
+
+.other-infos {
+    height: 80px;
+    display: flex;
+    background-color: lightgray;
+    margin: 10px;
+    justify-content: space-around;
+    line-height: 7px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.other-infos small {
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.other-infos p {
+    position: absolute;
+    top: 30px;
+}
+
+.break {
+    margin: 10px 15px;
+}
+
+.break-time {
+    padding: 11px;
+    background-color: lightgray;
+    border-radius: 5px;
+}
+
+.break-time button {
+    border-radius: 60px;
+    border: none;
+    padding: 8px;
+    margin-right: 10px;
+}
+
+.exercise {
+    margin: 0 14px;
+}
+
+.exercise-time {
+    background-color: lightgrey;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 8px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.activity-completed {
+    color: white;
+    background-color: rgb(138, 138, 236);
+    padding: 15px 44px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 14px;
+}

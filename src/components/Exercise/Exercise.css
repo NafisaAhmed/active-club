@@ -8,6 +8,17 @@
     margin: 30px 80px;
 }
 
+.logo-container {
+    display: flex;
+}
+
+.logo-container img {
+    width: 40px;
+    height: 40px;
+    margin-top: 25px;
+    margin-right: 10px;
+}
+
 .header-text {
     color: blueviolet;
 }
@@ -15,6 +26,10 @@
 .product-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 45px;
+    grid-gap: 20px;
 
+}
+
+.activity-container {
+    background-color: aliceblue;
 }
