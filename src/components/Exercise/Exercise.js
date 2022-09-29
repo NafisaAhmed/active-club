@@ -40,6 +40,14 @@ const Exercise = () => {
                     <h2>Question/Answer</h2>
                     <h3>#Q1. How does react works?</h3>
                     <p>Ans: ReactJS divides the UI into isolated reusable pieces of code known as components. React components work similarly to JavaScript functions as they accept arbitrary inputs called properties or props. It's possible to have as many components as necessary without cluttering your code.</p>
+                    <h3>#Q2. What is the difference between props and state?</h3>
+                    <p>Ans: Props are used to pass data from one component to another. The state is a local data storage that is local to the component only and cannot be passed to other components.</p>
+                    <h3>#Q3. What else can be done by useEffect except loading api?</h3>
+                    <p>Ans: 1. Running on state change: validating input field <br />
+                        2. Running on state change: live filtering <br />
+                        3. Running on state change: trigger animation on new array value <br />
+                        4. Running on props change: update paragraph list on fetched API data update <br />
+                        5. Running on props change: updating fetched API data to get BTC updated price</p>
                 </div>
             </div>
             <div className='activity-container'>
