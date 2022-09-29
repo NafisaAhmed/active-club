@@ -31,5 +31,6 @@
 }
 
 .activity-container {
+    position: sticky;
     background-color: aliceblue;
 }

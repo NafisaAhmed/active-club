@@ -1,7 +1,7 @@
 import React from 'react';
 import './Product.css';
 
-const Product = ({ product }) => {
+const Product = ({ product, handleAddToList }) => {
     const { name, img, age, time, description } = product;
     return (
         <div className='product'>
@@ -12,7 +12,7 @@ const Product = ({ product }) => {
                 <p>For Age: {age}</p>
                 <p>Time required: {time}s</p>
             </div>
-            <button className='btn-add'>Add to List</button>
+            <button onClick={() => handleAddToList(product)} className='btn-add'>Add to List</button>
         </div>
     );
 };
