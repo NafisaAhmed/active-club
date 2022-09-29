@@ -36,6 +36,11 @@ const Exercise = () => {
                         ></Product>)
                     }
                 </div>
+                <div className='ques-ans'>
+                    <h2>Question/Answer</h2>
+                    <h3>#Q1. How does react works?</h3>
+                    <p>Ans: ReactJS divides the UI into isolated reusable pieces of code known as components. React components work similarly to JavaScript functions as they accept arbitrary inputs called properties or props. It's possible to have as many components as necessary without cluttering your code.</p>
+                </div>
             </div>
             <div className='activity-container'>
                 <Activity

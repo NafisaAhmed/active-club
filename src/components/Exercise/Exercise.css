@@ -30,6 +30,10 @@
 
 }
 
+.ques-ans h2 {
+    text-align: center;
+}
+
 .activity-container {
     position: sticky;
     background-color: aliceblue;
