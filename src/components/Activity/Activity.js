@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import img from '../../images/me.jpg'
 import './Activity.css'
 
@@ -8,7 +8,18 @@ const Activity = ({ activity }) => {
         time += activities.time;
     }
     const [times, setTimes] = useState('');
-    const increaseBreakTime = (breaks) => setTimes(breaks);
+    const getPreviousBreakTime = localStorage.getItem('times');
+    const previousBreakTime = JSON.parse(getPreviousBreakTime);
+    const increaseBreakTime = (breaks) => {
+        if (previousBreakTime) {
+            setTimes(breaks);
+            localStorage.setItem('times', breaks);
+        }
+        else {
+            localStorage.setItem('times', breaks);
+            setTimes(breaks);
+        }
+    }
     console.log(times);
     return (
         <div className='activity'>
@@ -50,7 +61,7 @@ const Activity = ({ activity }) => {
                 </div>
                 <div className='exercise-time'>
                     <h5>Break Time</h5>
-                    <p><small>{times} seconds</small></p>
+                    <p><small>{times ? times + time : previousBreakTime ? previousBreakTime + time : 0} seconds</small></p>
                 </div>
             </div>
             <button className='activity-completed'>Activity Completed</button>
