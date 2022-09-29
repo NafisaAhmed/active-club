@@ -26,3 +26,29 @@
     border-radius: 5px;
     margin: 0 14px;
 }
+
+@media screen and (min-width:573px) and (max-width:992px) {
+    .product {
+        width: 200px;
+        height: 380px;
+    }
+
+    .product img {
+        width: 170px;
+        height: 100px;
+    }
+
+    .product-info {
+        line-height: 20px;
+    }
+
+    .product-info p {
+        line-height: 14px;
+    }
+
+    .btn-add {
+        color: white;
+        padding: 10px 50px;
+
+    }
+}
